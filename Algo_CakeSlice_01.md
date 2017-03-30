@@ -29,3 +29,23 @@
 - `[output]` an integer
 
   The maximum number of pieces the sliced cake can have.
+
+  ​
+
+  ​
+
+  ​
+
+  ​
+
+  ```javascript
+  function cakeSlice(n) {
+    var res = 1 ;
+    for(var i =  0  ; i < n ; i ++){
+  ​     if(i == 0 ) res = 1;
+  ​     else res+= i;
+    }
+    return res+i;
+
+  }```
+  ```
